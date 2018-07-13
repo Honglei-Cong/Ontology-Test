@@ -1,4 +1,7 @@
-1.目录结构
+
+## 目录结构
+
+```
 	|-utils	测试基本工具
 	|
 	|-test_neo_api   		测试neo合约工程
@@ -30,11 +33,18 @@
 	|	config.json
 	|	|
 	|	test_webapi.py
+```
 
-2.环境搭建
-	pip3 install websocket-client
-	pip3 install requests
-	
-3.执行test_web_api步骤
+## 环境搭建
+
+pip3 install websocket-client
+pip3 install requests
+
+
+## 执行test_web_api步骤
+
+```
 	> cd test_web_api
 	> python3 test_webapi.py
+```
+
