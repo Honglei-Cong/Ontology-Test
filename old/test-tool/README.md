@@ -37,8 +37,10 @@
 
 ## 环境搭建
 
-pip3 install websocket-client
-pip3 install requests
+```
+        pip3 install websocket-client
+        pip3 install requests
+```
 
 
 ## 执行test_web_api步骤
