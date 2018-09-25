@@ -1,0 +1,5 @@
+
+g++ -c foo.cpp
+g++ -c bridge.c
+ar -crs libfoo.a foo.o bridge.o
+
