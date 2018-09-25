@@ -1,0 +1,5 @@
+
+gcc -c foo.c -o foo.o
+ar -crs libfoo.a foo.o
+go build test.go
+
