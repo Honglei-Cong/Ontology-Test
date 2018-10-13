@@ -1,0 +1,5 @@
+
+rustc --crate-type=staticlib test.rs
+
+gcc -o test test.c -L. -ltest -lpthread -ldl
+
